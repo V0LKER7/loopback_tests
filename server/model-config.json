@@ -1,0 +1,40 @@
+{
+	"_meta": {
+		"sources": [
+			"loopback/common/models",
+			"loopback/server/models",
+			"../common/models",
+			"./models"
+		],
+		"mixins": [
+			"loopback/common/mixins",
+			"loopback/server/mixins",
+			"../common/mixins",
+			"./mixins"
+		]
+	},
+	"RoleMapping": {
+		"dataSource": "todo",
+		"public": true
+	},
+	"User": {
+		"dataSource": "todo",
+		"public": true
+	},
+	"ACL": {
+		"dataSource": "todo",
+		"public": true
+	},
+	"Role": {
+		"dataSource": "todo",
+		"public": true
+	},
+	"AccessToken": {
+		"dataSource": "todo",
+		"public": true
+	},
+	"Todo": {
+		"dataSource": "todo",
+		"public": true
+	}
+}

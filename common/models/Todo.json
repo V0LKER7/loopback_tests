@@ -1,0 +1,28 @@
+{
+	"name": "Todo",
+	"base": "PersistedModel",
+	"idInjection": true,
+	"mixins": {
+		"Owner": true,
+		"Member": {
+			"relations": ["owner"]
+		}
+	},
+	"options": {
+		"validateUpsert": true
+	},
+	"properties": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"date": {
+			"type": "date",
+			"required": true
+		}
+	},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

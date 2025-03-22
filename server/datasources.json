@@ -1,0 +1,10 @@
+{
+	"todo": {
+		"name": "todo",
+		"connector": "postgresql",
+		"host": "127.0.0.1",
+		"database": "lb-example",
+		"username": "postgres",
+		"password": "1234"
+	}
+}
